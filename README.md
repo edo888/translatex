@@ -9,7 +9,7 @@ https://translatex.com
 ## 🔧 Features
 
 - **Unlimited translations** without usage caps  
-- Supports **35+ languages**, including English, Chinese (Simplified/Traditional), Spanish, French, Arabic, Russian, Japanese, and more
+- Supports **35+ languages**, including English, Arabic, Bulgarian, Bengali, Czech, Danish, German, Greek, Spanish, Finnish, French, Hindi, Croatian, Hungarian, Indonesian, Italian, Hebrew, Japanese, Korean, Lithuanian, Dutch, Norwegian, Polish, Portuguese, Romanian, Russian, Slovak, Slovenian, Swedish, Thai, Turkish, Ukrainian, Vietnamese, Chinese (Simplified), Chinese (Traditional)
 - Two neural models:
   - *Small*: quality score ~7.9/10
   - *Large*: quality score ~8.3/10 (vs. ~8.5/10 for human translation)  
