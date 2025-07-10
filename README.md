@@ -24,7 +24,6 @@ https://translatex.com
 **Translation quality is measured using the [Alconost.MT Evaluation Tool](https://alconost.mt/evaluate).**
 
 #### Scoring System  
-(Credits: [https://alconost.mt/evaluate](https://alconost.mt/evaluate))
 
 - **91-100 — Publish-Ready:**  
   Ready for use with minimal or no edits.
@@ -34,6 +33,26 @@ https://translatex.com
   Understandable but contains noticeable issues. Requires significant human review and correction. Use with caution.
 - **1-49   — Unusable:**  
   Difficult to understand or use reliably. Re-generate or assign for full human translation.
+
+---
+### MT systems compared
+Google Translate vs DeepL vs TranslateX Free vs TranslateX Paid
+
+#### Evaluation Details
+
+- **Tested using:** FLORES PLUS DEVTEST 1-100  
+- **Quality estimation tools:** BLEU, SacreBLEU, and COMET ([Unbabel/wmt22-cometkiwi-da](https://huggingface.co/Unbabel/wmt22-cometkiwi-da))
+
+**Date:** 7/1/2025
+
+#### Results (EN → ES)
+
+| System                 | NLTK BLEU | SacreBLEU | COMET (mean) |
+|------------------------|-----------|-----------|--------------|
+| TranslateX Free        | 28.02     | 28.26     | 0.8485       |
+| TranslateX Paid        | 28.72     | 28.93     | 0.8670       |
+| DeepL                  | 27.28     | 27.28     | 0.8700       |
+| Google Translate       | 27.66     | 27.92     | 0.8745       |
 
 ---
 
