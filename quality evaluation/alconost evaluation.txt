@@ -1,0 +1,48 @@
+Credits to https://alconost.mt/evaluate
+
+Scoring System
+91-100 — Publish-Ready: Ready for use with minimal or no edits.
+70-90  — Acceptable: Generally accurate and fluent; meaning is preserved. Requires human review and correction before use.
+50-69  — Fair: Understandable but contains noticeable issues. Requires significant human review and correction. Use with caution.
+ 1-49  — Unusable: Difficult to understand or use reliably. Re-generate or assign for full human translation.
+
+---------------------------
+
+OpenAI GPT-4.1 results
+tx_paid_en-es-1-30.csv   https://alconost.mt/evaluate/e9e5d1e9-a064-4dbc-9563-eab0a1ef18b2   97/100
+tx_free_en-es-1-30.csv   https://alconost.mt/evaluate/2fb46b5f-3335-48a7-9ada-0209d73e1203   92/100
+deepl_en-es-1-30.csv     https://alconost.mt/evaluate/2ca42db5-de17-4202-9f5e-1d0a775a2de9   98/100
+gt_en-es-1-30.csv        https://alconost.mt/evaluate/0850ffb7-17c6-44e3-b48b-8f77e998b4dc   97/100
+ref_en-es-1-27.csv       https://alconost.mt/evaluate/8131f46b-1bea-45f2-8ab0-593eff124f8f   95/100
+
+Claude 4 Sonnet results
+tx_paid_en-es-1-30.csv   https://alconost.mt/evaluate/c6c3da9e-62ba-4fc7-923e-e9d71119e620   94/100
+tx_free_en-es-1-30.csv   https://alconost.mt/evaluate/695581a0-7511-4be8-bc21-93d2ba6e5dbd   85/100
+deepl_en-es-1-30.csv     https://alconost.mt/evaluate/71570330-4bff-412d-9ad6-fd02ca3c3099   94/100
+gt_en-es-1-30.csv        https://alconost.mt/evaluate/dc96d64a-f725-4931-916e-59641bd2c31e   95/100
+ref_en-es-1-27.csv       https://alconost.mt/evaluate/32f28085-531d-4e74-a4e6-5d501d7afc62   86/100
+
+---------------------------
+
+PROMPT:
+Please evaluate the following {source_lang} to {target_lang} translations. For each pair:
+1. Thoroughly analyze the source text for linguistic, stylistic, technical, and cultural dimensions. Consider content type, domain, audience, tone, terminology, formatting, localization elements, and compliance requirements for a comprehensive evaluation.
+2. If the source or target text contains code blocks (HTML, XML, Javascript, Python, etc.), treat them as technical content requiring special handling. Code functionality and syntax should be preserved, but legitimate translation errors within code comments or user-facing strings should still be identified. When suggesting corrections, preserve code structure and functionality while fixing only translatable content.
+3. **Prioritization Rule:** In any case of conflict between your general analysis and the provided **GUIDELINES**, the **GUIDELINES** are the absolute authority and must be followed without exception.
+4. Evaluate the translation against the source analysis and **GUIDELINES** requirements, identifying all errors across ACCURACY (mistranslation, addition or omission, source text not translated, source text should not be translated, inconsistency), FLUENCY (grammar and syntax, readability or expression, language style and tone, unidiomatic, typos or spelling mistakes, capitalization, punctuation, conventions), LOCALE CONVENTIONS (dates, currencies, units), TERMINOLOGY CONSISTENCY (glossary adherence, industry-standard terminology, inconsistent terms, term inaccuracy), STYLISTIC APPROPRIATENESS (style guide compliance, tone consistency, register appropriateness), FORMATTING AND COMPLIANCE (instructions, added or deleted tags).  Consider and prioritize **GUIDELINES**.
+5. Assign a score and list all identified errors based on the following framework. For each error, provide its severity and a brief explanation of its nature and contextual impact.
+
+**A. Core Scoring Principle:**
+**Single Holistic Score Principle:** Your evaluation must result in **one single, final score** for the entire translation segment. Do not assign separate scores to individual errors.
+**B. Scoring framework and Definitions**
+100 — The translation is error-free. A **Preferential** suggestion is a stylistic variation, not an error, and can be noted on a 100-point translation without changing the score.
+91-99 — Ready for use with minimal edits. This range is for translations whose most severe errors are **MINOR**. A **MINOR** error is a technical issue with minimal impact (e.g. punctuation).
+70-90 — Requires significant editing. The translation has a high density of errors (e.g., unpolished phrasing, multiple typos) that affect overall quality but do not disrupt the core meaning.
+50-69 — Understandable but contains noticeable issues. The most severe errors are **MAJOR**. A **MAJOR** error is a flow-disrupting problem, a significant **GUIDELINES** violation, or a comprehension problem.
+1-49 - Difficult to understand or use reliably. Contains **CRITICAL** errors. A **CRITICAL** error includes: a translation in the wrong language; an error that fundamentally alters the meaning; or any omission of meaningful words, clauses, or sentences from the source text (i.e., an incomplete translation).
+
+**C. Final Score Refinement and Constraints**
+Refine the score within the ranges defined above based on error density (e.g., a translation with **one MINOR error might get a 98**, while one with **four MINOR errors might get a 78**). Apply constraints: The score is **capped at 69** for poor overall style or significant guideline non-compliance. A score of 95+ requires excellent style and full **GUIDELINES** adherence. Any translation that is incomplete (omitting meaningful clauses or sentences) **MUST** be classified as having a CRITICAL error
+6. If the score is not 100, provide a concise explanation in English for the score and provide a corrected translation that addresses all identified errors.
+Here are the translation segments to evaluate:
+[]
