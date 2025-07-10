@@ -47,12 +47,12 @@ Google Translate vs DeepL vs TranslateX Free vs TranslateX Paid
 
 #### Results (EN → ES)
 
-| System                 | NLTK BLEU | SacreBLEU | COMET (mean) |
-|------------------------|-----------|-----------|--------------|
-| TranslateX Free        | 28.02     | 28.26     | 0.8485       |
-| TranslateX Paid        | 28.72     | 28.93     | 0.8670       |
-| DeepL                  | 27.28     | 27.28     | 0.8700       |
-| Google Translate       | 27.66     | 27.92     | 0.8745       |
+| System                 | NLTK BLEU | SacreBLEU | COMET        | OpenAI GPT-4.1 | Claude 4 Sonnet |
+|------------------------|-----------|-----------|--------------|----------------|-----------------|
+| TranslateX Free        | 28.02     | 28.26     | 0.8485       | 92             | 85              |
+| TranslateX Paid        | 28.72     | 28.93     | 0.8670       | 97             | 94              |
+| DeepL                  | 27.28     | 27.28     | 0.8700       | 98             | 94              |
+| Google Translate       | 27.66     | 27.92     | 0.8745       | 97             | 95              |
 
 ---
 
