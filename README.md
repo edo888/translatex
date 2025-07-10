@@ -1,10 +1,23 @@
 # TranslateX
 
-Unlimited automatic translation API for apps, websites, and services.
+**Unlimited, high-quality machine translation for apps, websites, and services at a fraction of the cost of Google Translate and DeepL.**
 
 https://translatex.com
 
 ---
+
+## Why TranslateX?
+
+TranslateX offers unlimited, production-grade neural translation at a price that crushes the competition. Compare with Google Translate and DeepL:
+
+| Provider            | Price per 1,000,000 chars | Quality (EN→ES, COMET) |
+|---------------------|---------------------------|------------------------|
+| **TranslateX Free** | Free                      | 0.8485                 |
+| **TranslateX**      | ~$19.99/month (unlimited) | 0.8670                 |
+| DeepL               | €20 (~$21.50)             | 0.8700                 |
+| Google Translate    | $20                       | 0.8745                 |
+
+> **With TranslateX, you get unlimited translations for less than the price of translating just one million characters with Google Translate or DeepL.**
 
 ## 🔧 Features
 
@@ -14,10 +27,10 @@ https://translatex.com
   - *Small*: quality score ~7.9/10
   - *Large*: quality score ~8.3/10 (vs. ~8.5/10 for human translation)  
 - Multiple subscription tiers:
-  - **Free**: Small model, CPU hosting, 50 API calls/min, unlimited translations (no commercial use / no privacy mode)  
-  - **Startup** (~$19.99/mo): Large model, GPU hosting, 50 API calls/min, commercial use, privacy mode  
-  - **Business** (~$29.99/mo): Large model, GPU hosting, 75 API calls/min, full features  
-  - **Enterprise** (~$39.99/mo): Large model, GPU hosting, 100 API calls/min, full features
+  - **Free**: Small model, CPU hosting, 50 API calls/min, unlimited translations (no commercial use / no privacy mode)  
+  - **Startup** (~$19.99/mo): Large model, GPU hosting, 50 API calls/min, commercial use, privacy mode  
+  - **Business** (~$29.99/mo): Large model, GPU hosting, 75 API calls/min, full features  
+  - **Enterprise** (~$39.99/mo): Large model, GPU hosting, 100 API calls/min, full features
 
 ## 📊 Quality Evaluation
 
@@ -77,5 +90,21 @@ Google Translate vs DeepL vs TranslateX Free vs TranslateX Paid
 | deepl_en-es-1-30.csv       | [View](https://alconost.mt/evaluate/71570330-4bff-412d-9ad6-fd02ca3c3099)             | 94/100 |
 | gt_en-es-1-30.csv          | [View](https://alconost.mt/evaluate/dc96d64a-f725-4931-916e-59641bd2c31e)             | 95/100 |
 | ref_en-es-1-27.csv         | [View](https://alconost.mt/evaluate/32f28085-531d-4e74-a4e6-5d501d7afc62)             | 86/100 |
+
+---
+
+## 🏆 Detailed Human Evaluation
+
+TODO
+
+---
+
+## Summary & Conclusion
+
+- **TranslateX delivers on-par translation quality with Google Translate and DeepL.**
+- **You pay just one monthly price for unlimited characters** while Google Translate and DeepL charge $20+ for each million characters.
+- **Perfect for startups, SaaS, websites, and large-scale apps.**
+
+**Switch to TranslateX and start saving without sacrificing quality.**
 
 ---
