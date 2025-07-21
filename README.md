@@ -10,12 +10,12 @@ https://translatex.com
 
 TranslateX offers unlimited, production-grade neural translation at a price that crushes the competition. Compare with Google Translate and DeepL:
 
-| Provider            | Price per 1,000,000 chars | Quality (EN→ES, COMET) |
-|---------------------|---------------------------|------------------------|
-| **TranslateX Free** | Free                      | 0.8485                 |
-| **TranslateX**      | ~$19.99/month (unlimited) | 0.8670                 |
-| DeepL               | €20 (~$21.50)             | 0.8700                 |
-| Google Translate    | $20                       | 0.8745                 |
+| Provider            | Price per 1,000,000 chars | Quality (EN→ES, COMET) | Blind human evaluation (EN→ES) |
+|---------------------|---------------------------|------------------------|--------------------------------|
+| **TranslateX Free** | Free                      | 0.8485                 | 93.87                          |
+| **TranslateX**      | ~$19.99/month (unlimited) | 0.8670                 | 96.33                          |
+| DeepL               | €20 (~$21.50)             | 0.8700                 | 96.5                           |
+| Google Translate    | $20                       | 0.8745                 | 97.27                          |
 
 > **With TranslateX, you get unlimited translations for less than the price of translating just one million characters with Google Translate or DeepL.**
 
@@ -95,7 +95,17 @@ Google Translate vs DeepL vs TranslateX Free vs TranslateX Paid
 
 ## 🏆 Detailed Human Evaluation
 
-TODO
+**Date** 7/21/2025
+
+The translations were evaluated by Marie Ovesyan (Machine Translation Specialist), using a **blind review** process. The evaluator did not know which system generated the translations, ensuring unbiased human judgment.
+
+| System           | Score | 0-49 Unusable | 50-69 Fair | 70-90 Acceptable | 91-100 Publish-Ready |
+|------------------|-------|---------------|------------|------------------|----------------------|
+| Google Translate | 97.27 | 0             | 0          | 1                | 29                   |
+| TranslateX Paid  | 96.33 | 0             | 0          | 2                | 28                   |
+| DeepL            | 96.5  | 0             | 0          | 3                | 27                   |
+| Reference        | 99.73 | 0             | 0          | 0                | 30                   |
+| TranslateX Free  | 93.87 | 0             | 0          | 7                | 23                   |
 
 ---
 
