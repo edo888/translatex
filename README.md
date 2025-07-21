@@ -29,8 +29,8 @@ TranslateX offers unlimited, production-grade neural translation at a price that
 - Multiple subscription tiers:
   - **Free**: Small model, CPU hosting, 50 API calls/min, unlimited translations (no commercial use / no privacy mode)  
   - **Startup** (~$19.99/mo): Large model, GPU hosting, 50 API calls/min, commercial use, privacy mode  
-  - **Business** (~$29.99/mo): Large model, GPU hosting, 75 API calls/min, full features  
-  - **Enterprise** (~$39.99/mo): Large model, GPU hosting, 100 API calls/min, full features
+  - **Business** (~$29.99/mo): Large model, GPU hosting, 75 API calls/min, source language detection  
+  - **Enterprise** (~$39.99/mo): Large model, GPU hosting, 100 API calls/min, HTML translation
 
 ## 📊 Quality Evaluation
 
