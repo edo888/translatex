@@ -107,6 +107,9 @@ The translations were evaluated by Marie Ovesyan (Machine Translation Specialist
 | Reference        | 99.73 | 0             | 0          | 0                | 30                   |
 | TranslateX Free  | 93.87 | 0             | 0          | 7                | 23                   |
 
+**View detailed human evaluation results with comments and corrected translations:**  
+[Blind Human Evaluation of TranslateX Paid, TranslateX Free, Google Translate, DeepL, Reference - English to Spanish July 2025.xlsx](https://github.com/edo888/translatex/raw/refs/heads/main/quality%20evaluation/Blind%20Human%20Evaluation%20of%20TranslateX%20Paid,%20TranslateX%20Free,%20Google%20Translate,%20DeepL,%20Reference%20-%20English%20to%20Spanish%20July%202025.xlsx)
+
 ---
 
 ## Summary & Conclusion
