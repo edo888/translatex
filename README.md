@@ -10,12 +10,12 @@ https://translatex.com
 
 TranslateX offers unlimited, production-grade neural translation at a price that crushes the competition. Compare with Google Translate and DeepL:
 
-| Provider            | Price per 1,000,000 chars | Quality (EN→ES, COMET) | Blind human evaluation (EN→ES) |
-|---------------------|---------------------------|------------------------|--------------------------------|
-| **TranslateX Free** | Free                      | 0.8485                 | 93.87                          |
-| **TranslateX**      | ~$19.99/month (unlimited) | 0.8670                 | 96.33                          |
-| DeepL               | €20 (~$21.50)             | 0.8700                 | 96.5                           |
-| Google Translate    | $20                       | 0.8745                 | 97.27                          |
+| Provider            | Price per 1,000,000 chars | Quality (EN→ES, COMET) | Human evaluation (EN→ES) |
+|---------------------|---------------------------|------------------------|--------------------------|
+| **TranslateX Free** | Free                      | 0.8485                 | 93.87                    |
+| **TranslateX**      | ~$19.99/month (unlimited) | 0.8670                 | 96.33                    |
+| DeepL               | €20 (~$21.50)             | 0.8700                 | 96.5                     |
+| Google Translate    | $20                       | 0.8745                 | 97.27                    |
 
 > **With TranslateX, you get unlimited translations for less than the price of translating just one million characters with Google Translate or DeepL.**
 
@@ -99,7 +99,7 @@ Google Translate vs DeepL vs TranslateX Free vs TranslateX Paid
 
 The translations were evaluated by Marie Ovesyan (Machine Translation Specialist), using a **blind review** process. The evaluator did not know which system generated the translations, ensuring unbiased human judgment.
 
-| System           | Score | 0-49 Unusable | 50-69 Fair | 70-90 Acceptable | 91-100 Publish-Ready |
+| System           | Score | 1-49 Unusable | 50-69 Fair | 70-90 Acceptable | 91-100 Publish-Ready |
 |------------------|-------|---------------|------------|------------------|----------------------|
 | Google Translate | 97.27 | 0             | 0          | 1                | 29                   |
 | TranslateX Paid  | 96.33 | 0             | 0          | 2                | 28                   |
@@ -107,7 +107,7 @@ The translations were evaluated by Marie Ovesyan (Machine Translation Specialist
 | Reference        | 99.73 | 0             | 0          | 0                | 30                   |
 | TranslateX Free  | 93.87 | 0             | 0          | 7                | 23                   |
 
-**View detailed human evaluation results with comments and corrected translations:**  
+> **View detailed human evaluation results with comments and corrected translations:**  
 [Blind Human Evaluation of TranslateX Paid, TranslateX Free, Google Translate, DeepL, Reference - English to Spanish July 2025.xlsx](https://github.com/edo888/translatex/raw/refs/heads/main/quality%20evaluation/Blind%20Human%20Evaluation%20of%20TranslateX%20Paid,%20TranslateX%20Free,%20Google%20Translate,%20DeepL,%20Reference%20-%20English%20to%20Spanish%20July%202025.xlsx)
 
 ---
